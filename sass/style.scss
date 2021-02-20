@@ -1,0 +1,33 @@
+* {
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.container {
+  width: 1000px;
+  margin: 70px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 50px;
+  border-radius: 5px;
+  border-width: 3px;
+  background-color: #fffc00;
+  font-weight: 700;
+}
+
+#messages,#result {
+  margin-top: 50px;
+  border: 2px solid #000;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  display: none;
+}
