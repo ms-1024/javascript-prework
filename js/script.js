@@ -66,10 +66,10 @@ function buttonClicked(argButtonName) {
     messages.style.display = "block";
     divResult.style.display = "block";
     round++;
-    let playerMove = argButtonName;
-    let randomNumber = Math.floor(Math.random() * 3 + 1);
+    const playerMove = argButtonName;
+    const randomNumber = Math.floor(Math.random() * 3 + 1);
     console.log('wylosowana liczba to: ' + randomNumber);
-    let computerMove = getMoveName(randomNumber);
+    const computerMove = getMoveName(randomNumber);
     console.log('ruch komputera to: ' + computerMove);
     displayResult(playerMove, computerMove);
     result.innerHTML = `Runda: ${round}:<br>Punkty gracza: ${pointsGamer} - Punkty komputera: ${pointsComputer}`;

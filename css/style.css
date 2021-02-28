@@ -6,12 +6,9 @@
 .container {
   width: 1000px;
   margin: 70px auto;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: center;
-      justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #buttons {
@@ -34,4 +31,5 @@ button {
   padding: 20px;
   display: none;
 }
+
 /*# sourceMappingURL=style.css.map */
